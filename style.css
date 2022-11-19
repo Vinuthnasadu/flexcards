@@ -1,0 +1,126 @@
+body
+{
+  background-color:blue;
+  animation-name: rids;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-delay: initial;
+}
+@keyframes rids
+{
+  0%
+  {
+    background-color: aquamarine;
+  }
+  25%
+  {
+    background-color: deeppink;
+  }
+  50%
+  {
+    background-color: lawngreen;
+  }
+  75%
+  {
+    background-color: navy;
+  }
+  100%
+  {
+    background-color: red;
+  }
+}
+.flex-container
+{
+  margin: 10px;
+}
+.btn
+{
+    background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0%;
+}
+.nav{
+    background-color: black;
+    overflow:hidden;
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.nav-right
+{
+  float: right;
+  justify-content: end;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 2px 15px;
+}
+.nav a
+{
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.form-control
+{
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+.card-body
+{
+  font-size: 15px;
+}
+.btn1
+{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border:5px solid white;
+}
+.btn2
+{
+  background-color: yellow;
+  color: black;
+  border-radius:3px;
+}
+.footer-top
+{
+    background-color: #343434;
+    height: 70px; 
+    padding: 10px;
+    margin-top: 10px 2px 2px 10px;
+}
+.footer-right
+{
+  float: right;
+}
+.btn3
+{
+  background-color: #343434;
+  color: white;
+  border: 2px solid white;
+  height: 40px;
+  width: 100px;
+}
+.footer-bottom
+{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.ri-search-line
+{
+  color: white;
+  width: 20px;
+}
